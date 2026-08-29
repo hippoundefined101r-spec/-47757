@@ -16,12 +16,6 @@ services:
         generateValue: true
       - key: ADMIN_PASSWORD
         sync: false
-      - key: TELEGRAM_BOT_TOKEN
-        sync: false
-      - key: TELEGRAM_CHAT_ID
-        sync: false
-      - key: TELEGRAM_CHANNEL_ID
-        sync: false
 
 databases:
   - name: mebel-flow-db
